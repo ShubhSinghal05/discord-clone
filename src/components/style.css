@@ -1,0 +1,142 @@
+.main{
+    width: 65%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgb(54, 57, 63);
+    border-radius: 10px;
+    /* color: white; */
+}
+h2{
+    color: white;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.link{
+    color: rgb(12, 168,204);
+    
+}
+.link:hover{
+    text-decoration: lightskyblue;
+    
+}
+.bar img{
+    height: 200px;
+    margin-top: 5px;
+    
+}
+.email{
+    width: 70%;
+    height: 100%;
+/* 
+    border: 1px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.email input{
+    width: 90%;
+    height: 120px;
+    /* margin-left: 10px; */
+    background-color: rgb(232,240,254);
+    border-radius: 10px;
+
+}.email button{
+    width: 90%;
+    height: 120px;
+    /* margin-left: 10px; */
+    background-color: rgb(88, 101, 242);
+    border-radius: 10px;
+}
+.center{
+    /* margin-left: -100px; */
+    /* margin: auto; */
+    /* margin-left: 60px;
+    margin-top: 2px; */
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+.register-main{
+    border: 1px solid black;
+    width: 40%;
+    height: 600px;
+    margin: auto;
+    
+    
+    background-color: rgb(54, 57, 63);
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+    color: white;
+
+}
+.form input,button{
+    width: 90%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.form button{
+    margin-top: 20px;
+    background-color: rgb(88, 101, 242);
+
+
+}
+.form h1{
+    margin: auto;
+    color: white;
+
+}
+.privacy-main{
+    /* border: 1px solid black; */
+    width: 80%;
+    overflow-y: hidden;
+    margin: auto;
+    margin-top: 100px;
+}
+.privacy{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("./image/vector.svg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.verfiya-main{
+    border: 1px ;
+}
+.nav{
+    border: 1px solid white;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.white{
+    color: white;
+}
+

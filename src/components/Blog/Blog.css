@@ -1,0 +1,290 @@
+
+
+.head{
+    background-color: #404eed;
+    height:50%;
+}
+
+.head img{
+    width:85%;
+    border-radius: 2%;
+    height:70%;
+    /* justify-self: center; */
+    /* border: 1px solid red; */
+    margin-top: 5%;
+}
+.tagline .anc{
+color:#404eed;
+text-decoration: none;
+margin-right:88% ;
+/* padding-top: 10%; */
+display: block;
+font-family: 'Ginto Nord', sans-serif;
+color: #5865f2;
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;
+text-transform: uppercase;
+}
+.tagline .h1 a{
+    /* color:black; */
+    /* text-decoration:none; */
+    margin-top: 10%;
+    display: block;
+    overflow: visible;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: 'Ginto Nord', sans-serif;
+    color: #23272a;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 8%;
+}
+.tagline{
+    /* border: 1px solid red; */
+    height:50%;
+    margin-top: 3%;
+    width:90%;
+    margin-left: 5%;
+}
+.cards{
+    display: flex;
+    margin:5%;
+    width:90%;
+    margin-left: 3%;
+    gap: 1%;
+}
+.cards img{
+    display: block;
+    width: 80%;
+    max-height: 280px;
+    height:50%;
+    min-height: 0px;
+    min-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    /* margin:5%; */
+    padding:5%;
+    gap: 5%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 6%;
+}
+.cards .anc{
+    display: block;
+    font-family: 'Ginto Nord', sans-serif;
+    color: #5865f2;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right:55%;
+    margin-top: -5%;
+    text-transform: uppercase;
+    }
+    .cards .h1 a{
+        display: block;
+        overflow: visible;
+        margin-top: 10px;
+        font-family: 'Ginto Normal', sans-serif;
+        font-size: 22px;
+        line-height: 100%;
+        color: #23272a;
+        margin-left: 5%;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .cardblog{
+        /* margin-top: -0.5%; */
+        width:50%;
+    
+    }
+
+    .cards .cardblog .h1 a{
+        display: block;
+        overflow: visible;
+        margin-top: 10px;
+        font-family: 'Ginto Normal', sans-serif;
+        font-size: 22px;
+        line-height: 100%;
+        color: #23272a;
+        margin-right: 9%;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .collection{
+        /* border: 1px solid red; */
+        height:300%;
+        width:90%;
+        margin-left:5%;
+        background-color: #f6f6f6;
+        
+        /* padding: 40px; */
+        border-radius: 8px;
+        
+    }
+.collection .leftimg{
+    width:35%;
+    display: block;
+    font-family: 'Ginto Nord', sans-serif;
+    color: #23272a;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right:55%;
+    margin-top: 4%;
+    padding:1%;
+    text-transform: uppercase;
+}
+.collection .leftimg h1{
+    overflow: visible;
+    color: #5865f2;
+    font-size: 40px;
+    line-height: 90%;
+    font-weight: 900;
+    text-transform: uppercase;
+    /* margin-bottom: 5%; */
+
+}
+.collection .leftimg .tut{
+    margin-bottom: 10%;
+    /* border: 1px solid red; */
+}
+.collection button{
+    margin-top: -15%;
+    /* margin-right: auto; */
+    margin-left: -54%;
+    padding: 16px 32px;
+    border-radius: 28px;
+    background-color: #5865f2;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+    font-family: 'Ginto Nord', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.rightimg{
+    display: block;
+    width: 50%;
+    max-height: 240px;
+    min-height: 0px;
+    min-width: 50%;
+    margin-left:43% ;
+    /* margin-bottom: 280%; */
+    /* border: 1px solid red; */
+    border-radius: 8px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: -26%;
+}
+.rightimg img{
+    width:90%;
+    height: 240px;
+    margin-top: -95%;
+    border-radius:8px;
+}
+.rightimg h1{
+    display: block;
+    overflow: visible;
+    -webkit-align-self: baseline;
+    -ms-flex-item-align: baseline;
+    align-self: baseline;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-family: 'Ginto Normal', sans-serif;
+    font-size: 20px;
+    line-height: 125%;
+    font-weight: 500;
+    text-decoration: none;
+}
+.cards1{
+    /* border: 1px solid red; */
+    width:48%;
+    margin-left: 43%;
+    height:10%;
+    display:flex;
+}
+.cards1 img{
+width:95%;
+/* border: 1px solid red; */
+margin-left: 8%;
+gap: 2%;
+margin-top: 3%;
+/* width: 100%; */
+    height: 150px;
+    min-height: 0px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    -o-object-fit: cover;
+    object-fit: cover;
+
+}
+.cards1 h3 a{
+    overflow: visible;
+    font-family: 'Ginto Normal', sans-serif;
+    font-size: 18px;
+    line-height: 10%;
+    font-weight: 800;
+    text-decoration: none;
+    color: #23272a;
+    margin-top: -50%;
+}
+
+@media(min-width:390px) and (max-width:1300px) {
+    .head img{
+        width: 100%;
+    }
+    .tagline .anc{
+        margin-left: 15%;
+        /* text-align: center; */
+    }
+    .tagline .h1 a{
+        margin-left: 8%;
+    }
+    .cards{
+        display:grid;
+        margin-left: 15%;
+        /* justify-self: ; */
+    }
+    .cardblog{
+        display:grid;
+        margin-left: 13%;
+    }
+    .cardblog .anc{
+        margin-left: 40%;
+    }
+    .collection{
+        display:grid;
+        grid-template-rows: auto auto auto auto;
+    }
+    .collection .leftimg{
+        display:grid;
+        margin-left:22%;
+    }
+    .collection .leftimg button{
+        margin-top: 5%;
+        margin-left: 6%;
+    }
+    .collection .rightimg{
+        margin-top: 60%;
+        margin-left: 27%;
+    }
+    .collection .rightimg img{
+        /* margin-left: -65%; */
+        width:90%;
+    }
+    .collection .cards1{
+        display:grid;
+        margin-left:27%;
+    }
+}

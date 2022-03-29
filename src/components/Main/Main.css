@@ -1,0 +1,281 @@
+.main{
+    display: grid;
+    grid-template-columns: 5% 95%;
+}
+.main-show-icon{
+    padding-top: 5px;
+    background-color: black;
+    width: 100%;
+    height: 960px;
+}
+.main-main{
+    background-color: pink;
+    height: 560px;
+    display: grid;
+    grid-template-columns: 17% 83%;
+}
+i{
+    width: 1000px;
+    color: white;
+}
+.main-discord-icon{
+    width: 40px;
+    background-color: rgb(104, 87, 250);
+    border-radius: 10px;
+
+}
+.main-discord-icon-plus{
+    /* margin-top: 5px; */
+    color: green;
+    font-size: 22px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+}
+.main-discord-icon-compass{
+    margin-top: 10px;
+    width: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(37, 37, 37);
+    
+}
+.main-discord-icon-download{
+    margin-top: 10px;
+    width: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:rgb(37, 37, 37);
+}
+.main-discord-icon-display{
+    font-size: 12px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.main-discord-search-section{
+    background-color: rgb(48, 46, 46);
+    /* width: 100%; */
+    height: 960px;
+    display:grid;
+    grid-template-rows: 94% 6%;
+}
+.main-discord-search-icon{
+    margin: 0 3px;
+    width: 24px;
+    border-radius: 15px;
+}
+.main-discord-search-section-01{
+    display: flex;
+    flex-direction: column;
+}
+.main-discord-search-input{
+    margin: 10px;
+    height: 25px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    border: #000;
+}
+hr{
+    color: #000;
+}
+.main-discord-search-btn1{
+    background-color: rgb(48, 46, 46);
+    /* border:white; */
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    color: #fff;
+    margin-right:80%;
+}
+.main-discord-search-btn2{
+    background-color: rgb(48, 46, 46);
+    border:white;
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    color: #fff;
+    margin-right:80%;
+}
+.main-discord-search-btn3{
+    background-color: rgb(48, 46, 46);
+    /* border:white; */
+    width: 100%;
+    height: 30px;
+    border-radius:5px;
+    color: #fff;
+    margin-right:80%;
+}
+.main-discord-search-section-02{
+    background-color: rgb(36, 35, 35);
+    height: 30px;
+    display: flex;
+}
+.main-discord-search-section-mic{
+    margin-left: 30px;
+    width: 40px;
+}
+.main-discord-search-section-headphone{
+    width: 20px;
+    margin:2px;
+}
+.main-discord-search-section-setting{
+    width: 20px;
+    margin:2px;
+}
+.main-discord-search-section-02-1{
+    display: flex;
+
+}
+
+h6{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.main-discord-search-section-user-code{
+    font-size: 10px;
+}
+.main-discord-show-section{
+    /* width: 100%; */
+    height: 100%;
+    background-color: rgb(77, 77, 77);
+    display:grid;
+    grid-template-rows: 7% 93%;
+}
+.main-discord-show-section-01{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+.main-discord-show-section-011{
+    text-align: left;
+}
+.main-discord-show-section-frnd-icon{
+    width: 30px;
+    margin-top: 10px;
+}
+.main-discord-show-section-btn{
+    background-color: rgb(77, 77, 77);
+    color:aliceblue;
+    border: none;
+    padding: 10px;
+    
+}
+.main-discord-show-section-btn1{
+    background-color: rgb(21, 129, 21);
+    color:aliceblue;
+    border: none;
+    padding: 6px;
+    margin-bottom: 2px;
+    border-radius:6px;
+    
+}
+.main-discord-show-section-012{
+    display: flex;
+}
+.main-discord-show-section-012-icon{
+    width: 25px;
+    margin: 10px 0 10px 10px;
+
+}
+.main-discord-show-section-012-icon1{
+    width: 20px;
+    margin: 10px 0 10px 10px;
+
+}
+.main-discord-show-section-012-icon2{
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 10px 10px;
+
+}
+.main-plus-edit{
+    vertical-align: top;
+    color: gray;
+    margin-right: 10px;
+}
+.main-discord-show-section-dash{
+    margin-top: 10px;
+    color: gray;
+}
+.main-discord-show-section-02{
+    background-color: rgb(59, 59, 59);
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.main-discord-show-section-02-1 .addFrnd{
+color:#fff;
+margin-left: -78%;
+font-size:20px;
+margin-top: 5%;
+}
+.main-discord-show-section-02-1 .tag{
+    color:gray;
+    margin-left: -45%;
+    font-size:12.5px;
+    margin-top: -1%;
+    }
+    .main-discord-show-section-02-1 .username{
+        width:60%;
+        /* margin-left: -7%; */
+        height:40%;
+        background-color:unset;
+        border-radius: 10px;
+        margin-top: 1%;
+        /* border:0.2px solid #000 */
+        }
+        .main-discord-show-section-02-1 div{
+            width:80%;
+            margin-left: 2%;
+            height:12%;
+            background-color:unset;
+            border-radius: 10px;
+            /* margin-top: 1%; */
+            border:0.2px solid #000
+            }
+            .main-discord-show-section-02-1 button{
+                background-color: rgb(104, 87, 250);
+                border-radius:7px;
+                color:#fff;
+                width:35%;
+                height:40%;
+                margin-top: 3%;
+                
+            }
+            .main-discord-show-section-02-1 button div{
+                
+                color:#fff;
+                justify-self: center;
+                margin-left: 8%;
+                margin-top: -4%;
+                border:none;
+                
+            }
+.main-discord-show-section-02-2{
+    display: grid;
+    grid-template-columns: 0.1% 99.9%;
+    
+}
+.main-discord-show-section-dash-01{
+    background-color: rgb(80, 80, 80);
+        
+}
+.main-discord-show-section-02-21{
+    color: #fff;
+}
+h3{
+    margin: 15px 5px 5px 10px;
+    text-align: left;
+}
+h5{
+    margin-bottom: 3px;
+}
+p{
+    margin: 2px 10px 2px 10px;
+    font-size: 10px;
+}

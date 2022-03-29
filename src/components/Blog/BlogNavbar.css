@@ -1,0 +1,114 @@
+.container {
+    width: 100%;
+    background: rgb(65,79,237);
+    /* height: 626px; */
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    height:80px;
+    align-items: center;
+    margin: 0px 170px;
+}
+.navbar-text {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-text a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+   margin-left: 300%;
+    font-size: 0.9em;
+    font-family: 'Ginto Nord', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.navbar img {
+    width: 154px;
+    height: 64px;
+    background:none;
+}
+.open-discord a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222222;
+    padding: 20px;
+    text-align: left;
+    margin-left: 40%;
+    
+    font-family: 'Ginto Nord', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.navbar-text :hover {
+    text-decoration: underline;
+    transition: ease-in 100ms;
+}
+.open-discord :hover {
+    text-decoration: underline;
+}
+.bgs-cls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.main-text-div {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 180px;
+}
+.heading {
+    text-align: center;
+    font-family: 'Tienne', serif;
+    color: white;
+    font-size: 2em;
+}
+.title {
+    text-align: center;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+.buttons {
+    text-align: center;
+    padding-top: 30px;
+}
+.buttons a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 16px 32px;
+    border-radius: 1.8em;
+    font-size: 1.2em;
+}
+.windows {
+    color:black;
+    background: white;
+    margin-right: 20px;
+}
+.browser {
+    color: white;
+    background: black;
+}
+.buttons :hover {
+
+    -webkit-box-shadow: 0 15px 20px -20px black;
+	   -moz-box-shadow: 0 15px 20px -20px black;
+	        box-shadow: 0 15px 20px -20px black;
+            transition: ease-in 200ms;
+    color: rgb(119, 28, 28);
+}
+
+

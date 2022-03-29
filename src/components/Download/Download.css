@@ -1,0 +1,357 @@
+
+body {
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.Download-top-Section-21 {
+    display: flex;
+    padding: 5% 10% 5px 5%;
+    background-color: #23272a;
+    color: #fff;
+}
+.Download-top-header{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    font-stretch: 900;
+    text-align: left;
+    padding-right: 25%;
+    /* padding:  1px 80px 1px; */
+}
+.Download-top-Section-1{
+    padding: 2px 5% 2px 5%;
+}
+.Download-top-Section-img{
+   width: 115%;
+   height: 78%;
+   padding-top: 5%;
+}
+.Download-top-p{
+    font-size: 16px;
+    text-align: left;
+    line-height: 25px;
+    /* padding-left: 12%; */
+}
+.Download-top-button{
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 22px;
+    border: 1px solid #5865f2;
+    background-color: #5865f2;
+    text-align: center;
+    /* justify-content: left; */
+    padding: 13px 22px 13px 22px;
+
+}
+.Download-Section-top-inside-btn{
+    padding-right: 3px;
+}
+.Download-top-button-section{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 20%;
+    /* padding: 5px 10% 5px 10%; */
+
+}
+.Download-top-button-side{
+    font-size: 16px;
+    padding: 20px 22px 13px 22px;
+    justify-content: right;
+}
+.Download-top-button:hover{
+    background-color: hsl(235,86.1%,71.8%);
+}
+.Download-last-Section-in{
+    width: 80%;
+    height: 500px;
+    padding: 28px 40px;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.Download-last-Section-in1{
+    width: 80%;
+    height: 180px;
+    padding: 28px 40px;
+    border-radius: 1px;
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.o11, .o12{
+    margin-left: 5px;
+}
+.o11{
+    margin-top: 150px;
+}
+.o13{
+    margin-top: -150px;
+}
+
+.Download-last-Section{
+    display: grid;
+    margin: 5% 10%;
+    grid-template-columns: 50% 50%;
+    gap: 1;
+    justify-content: center;
+    font-family: "Ginto Normal","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.Download-last-download-img1{
+    width: 100%;
+}
+.Download-last-download-img11{
+    width: 90%;
+}
+h6{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.Download-last-download-button{
+    font-size: 17px;
+    margin: 10px 0 50px 0;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    color: #fff;
+    border:1px solid #23272a;
+    background-color: #23272a;
+    /* transition-property: background-color,color,box-shadow,-webkit-box-shadow; */
+}
+.Download-show-linux{
+    /* display: none; */
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    text-align:center;
+    line-height: 20px;
+    line-height: 25px;
+    /* margin-top:10px;
+    margin-left: 130px; */
+    background-color: white;
+    border-radius:5px;
+}
+.Download-show-public-test{
+    /* display: none; */
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
+    text-align:center;
+    line-height: 20px;
+    /* margin-top:10px;
+    margin-left: 130px; */
+    background-color: white;
+    border-radius:5px;
+}
+.Download-last-download-button:hover{
+    background-color: rgb(37, 37, 37);
+    color: rgb(245, 243, 243);
+    box-shadow: 5px 7px 10px #dbdbdb;;
+}
+.Download-last5-p{
+    font-size: 10px;
+    text-align: left;
+    /* padding-left: 12%; */
+}
+i{
+
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: #23272a;
+}
+@media screen and (max-width: 360px){
+    .Download-top-img-display{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    .Download-top-Section{
+        width: 96.5%;
+        padding-left:10px;
+        padding-right: 1px;
+        margin-left: 1px;
+        margin-left: 1px;
+        display: block;
+    }
+    .Download-top-header{
+        font-size: 25px;
+    }
+    .Download-top-p{
+        text-align: left;
+        font-size: 14px;
+        width: 90%;
+    }
+    .Download-top-Section-1{
+        margin-left: 1px;
+        padding-left: 1px;
+        width: 90%;
+    }
+    .Download-top-button-section{
+        display: block;
+    }
+    .Download-top-Section-1{
+        padding-left: 1px;
+    }
+    .Download-last-Section{
+        width: 80%;
+        justify-content: center;
+        margin-left: 11px;
+        display: block;
+    }
+    .Download-last-Section-in{
+        /* width: 85%; */
+        margin-right: 10px;
+        margin-left: 12px;
+        /* margin-right: 2px; */
+    }
+    .Download-last-Section-in1{
+        /* background-color: red; */
+        /* width: 80%; */
+        margin-right: 10px;
+        margin-left: 12px;
+        /* margin-right: 2px; */
+    }
+    .Download-last-Section-in11{
+        /* background-color: red; */
+        width: 50%;
+        margin-right: 5px;
+        margin-left: 15px;
+        /* margin-right: 2px; */
+    }
+    .o11{
+        margin-top: 0;
+    }
+    .o13{
+        margin-top: 0;
+    }
+    .Download-last-Section-in{
+        height: 350px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .Download-last-download-button{
+        font-style: bold;
+        font-size: 12px;
+        width: 80%;
+    }
+    h6{
+        font-size: 20px;
+    }
+    .Download-last-5-p{
+        font-size:14px;
+    }
+    .Download-top-button-section{
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+}
+.container {
+    width: 100%;
+    background-color: #23272a;
+    /* height: 626px; */
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    height:80px;
+    align-items: center;
+    margin: 0px 170px;
+}
+.navbar-text {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-text a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+.navbar img {
+    width: 124px;
+    height: 34px;
+}
+.open-discord a {
+    color: black;
+    text-decoration: none;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    padding: 12px 17px;
+    border-radius: 1.4em;
+}
+.navbar-text :hover {
+    text-decoration: underline;
+    transition: ease-in 100ms;
+}
+.open-discord :hover {
+    color: blue;
+    /* opacity: 90%;
+    transition: ease-in 200ms; */
+    -webkit-box-shadow: 0 15px 30px -15px black;
+	   -moz-box-shadow: 0 15px 30px -15px black;
+	        box-shadow: 0 15px 30px -15px black;
+            transition: ease-in 200ms;
+}
+.bgs-cls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.main-text-div {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 180px;
+}
+.heading {
+    text-align: center;
+    font-family: 'Tienne', serif;
+    color: white;
+    font-size: 2em;
+}
+.title {
+    text-align: center;
+    color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2em;
+}
+.buttons {
+    text-align: center;
+    padding-top: 30px;
+}
+.buttons a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 16px 32px;
+    border-radius: 1.8em;
+    font-size: 1.2em;
+}
+.windows {
+    color:black;
+    background: white;
+    margin-right: 20px;
+}
+.browser {
+    color: white;
+    background: black;
+}
+.buttons :hover {
+
+    -webkit-box-shadow: 0 15px 20px -20px black;
+	   -moz-box-shadow: 0 15px 20px -20px black;
+	        box-shadow: 0 15px 20px -20px black;
+            transition: ease-in 200ms;
+    color: rgb(119, 28, 28);
+}
